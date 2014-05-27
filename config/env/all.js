@@ -18,9 +18,6 @@ module.exports = {
 			],
 			js: [
 				'public/lib/angular/angular.js',
-				'public/lib/d3/d3.js',
-				'public/lib/nvd3/nv.d3.js',
-				'public/lib/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.js',
 				'public/lib/angular-resource/angular-resource.js', 
 				'public/lib/angular-cookies/angular-cookies.js', 
 				'public/lib/angular-animate/angular-animate.js', 
@@ -28,7 +25,10 @@ module.exports = {
 				'public/lib/angular-sanitize/angular-sanitize.js', 
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
-				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js'
+				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+				'public/lib/d3/d3.js',
+				'public/lib/nvd3/nv.d3.js',
+				'public/lib/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.js'
 			]
 		},
 		css: [
