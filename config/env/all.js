@@ -28,12 +28,16 @@ module.exports = {
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
 				'public/lib/d3/d3.js',
 				'public/lib/nvd3/nv.d3.js',
-				'public/lib/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.js'
+				'public/lib/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.js',
+				'public/lib/jquery/dist/jquery.js',
+				'public/lib/ng-grid/ng-grid-2.0.11.min.js'
 			]
 		},
 		css: [
 			'public/modules/**/css/*.css',
-			'public/lib/nvd3/nv.d3.css'
+			'public/lib/nvd3/nv.d3.css',
+			'public/lib/ng-grid/ng-grid.min.css'
+
 		],
 		js: [
 			'public/config.js',
