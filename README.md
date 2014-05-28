@@ -81,6 +81,12 @@ If you encounter any problem try the Troubleshooting section.
 You have your application running but there are a lot of stuff to understand, we recommend you'll go over the [Offical Documentation](http://meanjs.org/docs.html). 
 In the docs we'll try to explain both general concepts of MEAN components and give you some guidelines to help you improve your development procees. We tried covering as many aspects as possible, and will keep update it by your request, you can also help us develop the documentation better by checking out the *gh-pages* branch of this repository.
 
+## How to add the third-party dependency
+```
+$ bower install [dependency name]
+```
+The dependency will be isntalled under '/public/lib'
+
 ## Community
 * Use to [Offical Website](http://meanjs.org) to learn about changes and the roadmap.
 * Join #meanjs on freenode.
