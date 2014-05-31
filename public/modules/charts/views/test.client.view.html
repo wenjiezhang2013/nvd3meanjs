@@ -1,5 +1,5 @@
 <section data-ng-controller="TestController">
-	This is the Test {{customerName}}
+	
     <nvd3-line-chart
         data="exampleData"
         showXAxis="true"
@@ -8,10 +8,20 @@
         interactive="true">
     </nvd3-line-chart>
 
-
-
-
-
-
     <div class="gridStyle" ng-grid="gridOptions"></div>
+
+
+    <nvd3-pie-chart
+        data="exampleDataForPieChart"
+        width="500"
+        height="500"
+        id="exampleId"
+        x="xFunction()"
+        y="yFunction()"
+        showLabels="true"
+        pieLabelsOutside="false"
+        showValues="true"
+        labelType="percent">
+            <svg></svg>
+    </nvd3-pie-chart>
 </section>
